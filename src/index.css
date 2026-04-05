@@ -136,7 +136,7 @@ h1 {
 .converter-body {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
   position: relative;
 }
 
@@ -288,13 +288,14 @@ h1 {
   border-left: 4px solid var(--primary);
 }
 
-/* Swap Button Premium Styling */
+/* Swap Button Flow Positioning */
 .swap-button-wrapper {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -27px 0; /* Centered exactly on the cards' border */
   z-index: 10;
+  position: relative;
 }
 
 .swap-btn {
