@@ -55,3 +55,7 @@ And drag the `dist` folder into your Netlify dashboard.
 
 ---
 Built with ❤️ by [HeyToshan](https://github.com/heytoshan)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
